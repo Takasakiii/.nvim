@@ -35,8 +35,17 @@ k("n", "<C-n>", ":tabnew<cr>", opts)
 k("n", "<C-l>", "gt", opts)
 k("n", "<C-h>", "gT", opts)
 
+-- Navigate window
+k("n", "<A-L>", ":vsplit<cr>", opts)
+k("n", "<A-J>", ":split<cr>", opts)
+k("n", "<A-h>", "<C-w>h", opts)
+k("n", "<A-j>", "<C-w>j", opts)
+k("n", "<A-k>", "<C-w>k", opts)
+k("n", "<A-l>", "<C-w>l", opts)
+
 -- Other
 k("n", "<C-t>", ":tab terminal<cr>i", opts)
+k("n", "<C-q>", ":q<cr>", opts)
 
 -- Visial Mode --
 -- Move text up and down
